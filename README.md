@@ -141,3 +141,8 @@ aws s3api get-bucket-versioning --bucket tf-practice-410567494405-adhir --region
 Practise Infrastructure as Code (IaC), Terraform workflows, state management, reusable modules and AWS S3 configuration.
 
 
+
+## Cleanup
+After testing and verifying the S3 bucket settings, I ran `terraform destroy`.
+Terraform confirmed that 4 AWS resources were destroyed.
+The Terraform configuration remains available to recreate the practice infrastructure.
